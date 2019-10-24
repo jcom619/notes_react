@@ -1,10 +1,9 @@
 import React from 'react';
 
 
-
 const Header = () => {
   return (
-    <div>
+    <div className="m-5">
         <h1 className="header">Note Keeper</h1>
     </div>
   );
