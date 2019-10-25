@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      <nav className="center navbar fixed-bottom animated zoomIn">
+      <nav className="center navbar fixed-bottom">
         <div className="center d-flex justify-content-around">
           <div className="d-flex">
             <div className="btn-group dropup">

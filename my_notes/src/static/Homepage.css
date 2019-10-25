@@ -11,6 +11,7 @@
 }
 .Tiles:hover {
   transform: scale(1.03);
+  border: 2px solid rgba(255,20,32, 0.7);
 }
 .App {
   background: rgb(58,180,152);
@@ -39,9 +40,7 @@
   font-family: impact;
   padding: 10px;
   padding-top: 20px;
-
 }
-
 .center {
   width: 50%;
   /* border: 0px solid green; */
@@ -73,14 +72,15 @@
 .headerBox {
   margin-bottom: 10%;
 }
-.jumbotron {
-  background-color: rgba(120,160,130,0.75);
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.7);
+.slide {
+  /* background-color: rgba(120,160,130,0.75); */
+  /* box-shadow: 0px 10px 30px rgba(0,0,0,0.7); */
   align-items: center;
-  width: 60%;
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 20px;
-  padding: 50px;
+  width: 50%;
+  /* border: 1px solid rgba(0,0,0,0.3); */
+  /* border-radius: 20px; */
+  padding: 60px;
+  margin-bottom: 40px;
 }
 .logo {
   color: rgba(20,60,30,1);
