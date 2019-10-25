@@ -1,14 +1,11 @@
 import React from 'react';
 
-
 const Header = () => {
   return (
-    <div className="m-5">
-        <h1 className="header">Note Keeper</h1>
+    <div className="headerBox tc">
+      <h2 className="header">Note Keeper</h2>
     </div>
   );
 }
-
-
 
 export default Header;

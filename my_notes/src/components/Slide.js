@@ -10,7 +10,7 @@ import perf from '../images/performance.png';
 const Slide = () => {
   return (
 
-      <div id="carouselExampleIndicators" className="jumbotron container-fluid carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" className="jumbotron container carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -20,55 +20,54 @@ const Slide = () => {
           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
         </ol>
-        <div className="container mb-5 carousel-inner">
+        <div className="container carousel-inner">
 
           <div className="carousel-item active">
-
             <a href={`https://jcom619.github.io/js_notes/`}>
-              <img src={js} className="d-block w-100" alt="..."/>
+              <img src={js} className="Tiles center d-block w-100" alt="..."/>
             </a>
-            <h2 className="slideName tc">JavaScript</h2>
+            <h2 className="slideName tc">JS</h2>
           </div>
 
 
           <div className="carousel-item">
             <a href={`https://jcom619.github.io/python_notes/`}>
-              <img src={py} className="d-block w-100" alt="..."/>
+              <img src={py} className="Tiles center d-block w-100" alt="..."/>
             </a>
             <h2 className="slideName tc">Python</h2>
           </div>
 
           <div className="carousel-item">
             <a href={`https://jcom619.github.io/jquery_notes/`}>
-              <img src={jq} className="d-block w-100" alt="..."/>
+              <img src={jq} className="Tiles center d-block w-100" alt="..."/>
             </a>
             <h2 className="slideName tc">JQuery</h2>
           </div>
 
           <div className="carousel-item">
             <a href={`https://jcom619.github.io/django_notes/`}>
-              <img src={dj} className="d-block w-100" alt="..."/>
+              <img src={dj} className="Tiles center d-block w-100" alt="..."/>
             </a>
             <h2 className="slideName tc">Django</h2>
           </div>
 
           <div className="carousel-item">
             <a href={`https://jcom619.github.io/webpack_notes/`}>
-              <img src={wp} className="d-block w-100" alt="..."/>
+              <img src={wp} className="Tiles center d-block w-100" alt="..."/>
             </a>
             <h2 className="slideName tc">Webpack</h2>
           </div>
 
           <div className="carousel-item">
             <a href={`https://jcom619.github.io/ssh_notes/`}>
-              <img src={ssh} className="d-block w-100" alt="..."/>
+              <img src={ssh} className="Tiles center d-block w-100" alt="..."/>
             </a>
             <h2 className="slideName tc">SSH</h2>
           </div>
 
           <div className="carousel-item">
             <a href={`https://jcom619.github.io/performance_notes/`}>
-              <img src={perf} className="d-block w-100" alt="..."/>
+              <img src={perf} className="Tiles center d-block w-100" alt="..."/>
             </a>
             <h2 className="slideName tc">Performance</h2>
           </div>
