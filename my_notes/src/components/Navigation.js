@@ -35,7 +35,7 @@ const Navigation = () => {
                    rel="noopener noreferrer">
                   Django
                 </a>
-                
+
               </div>
             </div>
             </div>
