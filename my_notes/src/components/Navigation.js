@@ -3,7 +3,7 @@ import React from 'react';
 const Navigation = () => {
   return (
     <div>
-      <nav className="navbar fixed-top">
+      <nav className="navigation navbar fixed-top">
         <div className="d-flex justify-content-around">
           <div className="d-flex">
             <div className="dropdown mr-1">
