@@ -1,0 +1,111 @@
+
+.Tiles {
+  /* display: flex; */
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.7);
+  border: 2px solid rgba(255,200,32, 0.7);
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+}
+.Tiles:hover {
+  transform: scale(1.03);
+  border: 2px solid rgba(255,20,32, 0.7);
+}
+.App {
+  background: rgb(58,180,152);
+  background: radial-gradient(circle,
+              rgba(58,180,152,1) 0%,
+              rgba(39,92,89,1) 74%,
+              rgba(16,50,40,1) 100%
+              );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(5px + 2vmin); */
+}
+.btn {
+  box-shadow: 0px 0px 25px rgba(0,0,0,1);
+  background-color: rgba(120,160,130,0.75);
+  color: rgba(28,100,92, 1);
+  text-shadow: 0px 0px 3px rgba(200,200,200,1);
+  font-family: impact;
+  width: 180px;
+  height: auto;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.carousel-item {
+  color: rgba(28,100,92, 1);
+  text-shadow: 0px 0px 3px rgba(200,200,200,1);
+  font-family: impact;
+  padding: 10px;
+}
+.center {
+  width: 100%;
+  padding: 0px;
+}
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.0);
+  border: 0px solid rgba(0, 0, 0, 0.0);
+  width: 180px;
+  margin: 10px;
+}
+.dropdown-item {
+  margin-bottom: 10px;
+  padding: 2px;
+  border: 1px solid grey;
+  color: white;
+  background-color: rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 15px rgba(0,0,0,1);
+  text-align: center;
+  border-radius: 20px;
+  width: 180px;
+  font-family: futura;
+}
+.fixed-bottom {
+  /* margin: auto; */
+}
+
+
+.header {
+  color: rgba(120,160,130,0.75);
+  text-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+  font-family: noteworthy;
+  font-size: 5em;
+}
+.headerBox {
+
+}
+.slide {
+  align-items: center;
+  /* width: 50%; */
+
+}
+.logo {
+  color: rgba(20,60,30,1);
+  text-shadow: 0px 0px 3px rgba(200,200,200,0.6);
+  /* margin-top: -60px; */
+}
+.slideName {
+  font-size: 4vw;
+  margin-top: 20px;
+}
+
+
+/* #####################################
+
+            MEDIA QUERIES!
+
+##################################### */
+
+
+@media screen and (max-width: 1000px){
+  .slide {
+    width: 300px;
+  }
+}
