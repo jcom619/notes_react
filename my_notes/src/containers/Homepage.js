@@ -16,7 +16,7 @@ class Homepage extends Component {
 
           <Navigation/>
           <Header/>
-          <Slide/>
+          <Slide />
           <Logo/>
           <Footer/>
 

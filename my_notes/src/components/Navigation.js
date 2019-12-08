@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navigation = () => {
   return (
-    <div>
-      <nav className="navigation navbar fixed-top">
+    <div className="center">
+      <nav className="center navigation navbar fixed-top">
         <div className="d-flex justify-content-around">
           <div className="d-flex">
             <div className="dropdown mr-1">
@@ -16,11 +16,10 @@ const Navigation = () => {
                       data-offset="20,20">
                 M E N U
               </button>
-
               <div className="dropdown-menu" aria-labelledby="dropdownMenuOffset">
                 <a className="dropdown-item"
                    href={`https://jcom619.github.io/js_notes/`}
-                   target="_blank" rel="noopener noreferrer">
+                   >
                   Java Script
                 </a>
                 <a className="dropdown-item"
@@ -40,7 +39,6 @@ const Navigation = () => {
             </div>
             </div>
         </div>
-
       </nav>
     </div>
   );
